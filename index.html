@@ -8,10 +8,24 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <div id="quiz"></div>
+    <h1>QUIZ BOARD</h1>
+    <form id = "quiz" name ="quiz">
+    <p> Inside which HTML element do we put the JavaScript?</p>
+    <input type="radio" id="mc" name="question1" value="javascript"> javascript<br>
+    <input type="radio" id="mc" name="question1" value="js"> js<br>
+    <input type="radio" id="mc" name="question1" value="script"> script<br>
+
+    <p>Where is the correct place to insert a JavaScript?</p>
+    <input type="radio" id="mc" name="question2" value="head"> The head section<br>
+    <input type="radio" id="mc" name="question2" value="body"> The body section<br>
+    <input type="radio" id="mc" name="question2" value="both"> Both the head section and the body section are correct<br>
+
+
+
     <button id="submit">Get Results</button>
     <div id="results"></div>
 
-
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
