@@ -1,12 +1,15 @@
 body{
   font-family: 'Lobster', cursive;
 }
-
+h1{
+font-family: 'Fruktur', cursive;
+color: black;
+font-size: 50px;
+}
 #quiz {
-  margin-left: 10px;
   background: #d2def2;
-  padding: 10px 20px 10px 20px;
-  width: 400px;
+  padding: 20px 30px 20px 30px;
+  width: 600px;
   border-radius: 20px;
   display: block;
 

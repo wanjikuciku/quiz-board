@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>lorna's quiz</title>
+    <link href="https://fonts.googleapis.com/css?family=Fruktur" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link rel ="stylesheet" type ="text/css" href ="css/styles.css">
@@ -12,9 +13,10 @@
   <body>
     <center>
     <div class="container">
-      <h1>QUIZ BOARD</h1>
+
       <script src="js/script.js"></script>
     <form id = "quiz" name ="quiz">
+      <h1>QUIZ BOARD</br><br></h1>
     Q1. Inside which HTML element do we put the JavaScript?<br>
     <input type="radio" id="mc" name="q1" value="a"> javascript<br>
     <input type="radio" id="mc" name="q1" value="b"> js<br>
@@ -37,8 +39,7 @@
     </div>
     <input id= "button" type = "button" value = "Submit" onclick= "check()">
     </form>
-  </center>
-
+    </center>
     <div id = "after_submit">
     <p id = "number_count"></p>
     </div>
