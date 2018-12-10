@@ -13,27 +13,6 @@ To retake the quiz you can either refresh the webpage.
 
 ### BDD
 It can determine if the provided answer is wrong
-Input:
-No answered questions
-
-Output:
-Hence no response from the application, therefore no grading done.
-
--When the input is a wrong answer
-
-Input:
-Wrong answer
-
-Output
-The wrong answer will not be graded
-
--When the right answers have been submitted
-
-Input
-Right answer
-
-Output
-It will be graded when you submit the answers at the end.
 
 Example Input : no answered questions
 Example Output: 0 (No mark not awarded)
