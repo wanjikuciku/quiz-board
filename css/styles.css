@@ -2,20 +2,20 @@ body{
   font-family: 'Lobster', cursive;
   font-size: 30px;
   opacity: 0.8;
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0ZKyzYaZu3tZ1eLuAr1RVplYu9J31_2Q3gFl8LHriINboe-Zhmg);
+  background-image: url(http://i0.wp.com/thewallpaper.co/wp-content/uploads/2016/10/3D-hd-wallpaper-desktop-wallpapers-high-definition-colourful-background-photos-best-windows-display-picture-1920x1080.jpg);
   background-attachment: scroll;
 }
 h1{
 font-family: 'Fruktur', cursive;
 color: black;
 font-size: 50px;
+text-decoration: overline;
 }
 #quiz {
-  background: #d2def2;
+  background: grey;
   padding: 20px 30px 20px 30px;
   width: 600px;
   border-radius: 20px;
-  display: block;
 
 }
 input {
@@ -28,9 +28,9 @@ input {
   border-radius: 5px;
   padding: 10px;
   color: white;
-  font-size: 16px;
   transition-duration: .5s;
   margin-top: 15px;
+  font-size: 30px;
 }
 #button:hover{
   background: white;
@@ -49,5 +49,4 @@ input {
 }
 #mc {
   display: inline-block;
-  color: black;
 }
