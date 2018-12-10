@@ -1,5 +1,9 @@
 body{
   font-family: 'Lobster', cursive;
+  font-size: 30px;
+  opacity: 0.8;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0ZKyzYaZu3tZ1eLuAr1RVplYu9J31_2Q3gFl8LHriINboe-Zhmg);
+  background-attachment: scroll;
 }
 h1{
 font-family: 'Fruktur', cursive;
@@ -40,7 +44,10 @@ input {
   padding: 10px 20px 10px 20px;
   width: 400px;
   border-radius: 20px;
-  float: left;
-  margin-left: 20px;
   font-size: 30px;
+  text-align: center;
+}
+#mc {
+  display: inline-block;
+  color: black;
 }
