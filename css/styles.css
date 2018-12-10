@@ -31,12 +31,20 @@ input {
   color: white;
   transition-duration: .5s;
   margin-top: 15px;
+#button {
+  background: green;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  transition-duration: .5s;
+  margin-top: 15px;
   font-size: 30px;
 }
 #button:hover{
   background: white;
   border: 1px solid green;
-  color: black;
+  color: black
   cursor: pointer;
 }
 #after_submit{
