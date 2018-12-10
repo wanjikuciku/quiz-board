@@ -20,6 +20,6 @@ function check(){
       }
   document.getElementById("after_submit").style.visibility ="visible";
 
-  document.getElementById("number_count").innerHTML = "You got " +count + " correct.";
+  document.getElementById("number_count").innerHTML = "You got " +count + "correct.";
 
 }
