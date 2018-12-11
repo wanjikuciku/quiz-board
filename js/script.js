@@ -7,6 +7,7 @@ function check(){
   var count=0;
 
       if (q1 == "c") {
+<<<<<<< HEAD
         count+=25;
       }
       if (q2 == "c"){
@@ -27,5 +28,21 @@ function check(){
   $("#number_count").show();
   event.preventDefault();
 
+=======
+        count++;
+      }
+      if (q2 == "c"){
+        count++;
+      }
+      if (q3 == "b"){
+        count++;
+      }
+      if (q4 == "c"){
+        count++;
+      }
+  document.getElementById("after_submit").style.visibility ="visible";
+
+  document.getElementById("number_count").innerHTML = "You got " +count + "correct.";
+>>>>>>> gh-pages
 
 }
