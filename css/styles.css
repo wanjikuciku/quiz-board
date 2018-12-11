@@ -1,11 +1,7 @@
 body{
   font-family: 'Lobster', cursive;
   font-size: 30px;
-<<<<<<< HEAD
   opacity: 0.9;
-=======
-  opacity: 0.8;
->>>>>>> gh-pages
   background-image: url(http://i0.wp.com/thewallpaper.co/wp-content/uploads/2016/10/3D-hd-wallpaper-desktop-wallpapers-high-definition-colourful-background-photos-best-windows-display-picture-1920x1080.jpg);
   background-attachment: scroll;
 }
@@ -34,7 +30,6 @@ input {
   color: white;
   transition-duration: .5s;
   margin-top: 15px;
-<<<<<<< HEAD
 #button {
   background: green;
   border: none;
@@ -43,18 +38,13 @@ input {
   color: white;
   transition-duration: .5s;
   margin-top: 15px;
-=======
->>>>>>> gh-pages
   font-size: 30px;
 }
 #button:hover{
   background: white;
   border: 1px solid green;
-<<<<<<< HEAD
   color: black
-=======
   color: black;
->>>>>>> gh-pages
   cursor: pointer;
 }
 #after_submit{
@@ -69,9 +59,6 @@ input {
 #mc {
   display: inline-block;
 }
-<<<<<<< HEAD
 #number_count{
   display: none;
 }
-=======
->>>>>>> gh-pages
